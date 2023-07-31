@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web de practica</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      <img class="logo" src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Logo" height="50" width="50">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+            <li><a href="./index.html">Productos</a></li>
+            <li><a href="./pages/nosotros.html">Quienes-somos</a></li>
+            <li><a href="./pages/nosotros.html">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Carousel -->
+    <main>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1597315234538-d06240e90487?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1570197140053-0454b88d6520?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=860&q=80" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1603401583724-6a90fb926172?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1688767053764-d5ac92d0f725?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="Image 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1590505039589-c3f5ddaa299b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80" alt="Image 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1690025189745-8fa41db86a1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=879&q=80" alt="Image 6">
+                </div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </main>
+
+    <!-- Cards -->
+    <section class="cards">
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1681504446264-708b83f4ea12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UkVMT0pFU3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj casio 2367</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellendus ratione, vitae suscipit quisquam asperiores.</p>
+        <h4>$ 45.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1612042850052-22573fcd0bad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj swizz 7685</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium delectus debitis. Suscipit, voluptates</p>
+        <h4>$ 26.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UkVMT0pFU3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Q&Q</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At voluptatibus nam neque itaque ducimus similique. jgsbdggg</p>
+        <h4>$ 37.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UkVMT0pFU3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Xperia</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iusto earum harum maiores id ut. jgsbfdjdhg</p>
+        <h4>Desde $ 19.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585123334904-845d60e97b29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UkVMT0pFU3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Mercier</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum veritatis molestiae! Id, harum provident.</p>
+        <h4>$ 20.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8UkVMT0pFU3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Cautier</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At fugit placeat inventore sunt, eos necessitatibus?mjsgd jhg</p>
+        <h4>$ 42.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Casio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius facere nostrum quaerat, reiciendis quasi! hfsfdvdfd</p>
+        <h4>$ 15.84</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Q&Q</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ipsam obcaecati asperiores. Qui, iure voluptatum!</p>
+        <h4>$ 67.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1596574556890-40f0563f2bbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Gaunier</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed reiciendis repudiandae mollitia commodi aperiam ea? hsffdrf</p>
+        <h4>$ 36.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555172375-56a199d6164d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80" alt="Card 1">
+        <h3>Reloj Tamiz</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at sed sint, magni enim dolore? hfsrdddy hddyfff</p>
+        <h4>$ 27.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528968620-57e0257ff360?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Sport</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos voluptatem earum, magnam veritatis amet? gsrdfdtr</p>
+        <h4>$ 50.99</h4>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1629581678313-36cf745a9af9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFJFTE9KRVN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+        <h3>Reloj Casio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque aspernatur minima. Facere, asperiores dolores! hgfs</p>
+        <h4>$ 25.99</h4>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <h1>Geovany Gonzalez</h1>
+        <ul class="social-links">
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
